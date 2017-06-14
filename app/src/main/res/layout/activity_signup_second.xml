@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.seconddiabetesapp.Onboarding.OnboardingStart"
+    android:background="@color/colorMainGreen">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now write a password"
+            style="@style/HeadingTextViewStyle"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Password"/>
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Confirm password"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="And set your average in mmol/L"
+            style="@style/HeadingTextViewStyle"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/averageEditText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:inputType="numberDecimal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swipe right to continue"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

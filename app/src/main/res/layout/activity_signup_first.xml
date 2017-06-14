@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.seconddiabetesapp.Onboarding.OnboardingStart"
+    android:background="@color/colorMainYellow">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start by writing your name, surname and email"
+            style="@style/HeadingTextViewStyle"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Name"
+                />
+
+            <EditText
+                android:id="@+id/surnameEditText"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Surname"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Email address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swipe right to continue"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

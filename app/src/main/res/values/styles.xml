@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="MeasurementTextViewStyle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MeasurementExplanationTextViewStyle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="HeadingTextViewStyle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="LabelTextViewStyle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+</resources>
